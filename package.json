@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "shadow-cljs": "^2.4.1"
+  },
+  "dependencies": {
+    "rxjs": "^6.2.0",
+    "rxjs-compat": "^6.2.0"
+  }
+}

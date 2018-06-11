@@ -1,0 +1,12 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[com.rpl/specter "1.1.0"]
+  [funcool/potok "2.3.0"]]
+
+ :builds
+ {:app {:target :node-script
+        :main shadow-potok.core/main
+        :output-to "out/app.js"}}}
